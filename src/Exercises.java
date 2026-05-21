@@ -117,6 +117,7 @@ public class Exercises {
         while(current.next != null){
             if(current.next.data == min){
                 current.next = current.next.next;
+                return head;
             }
 
             current = current.next;
